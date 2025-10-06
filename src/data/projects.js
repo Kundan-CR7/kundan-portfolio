@@ -14,6 +14,13 @@ export const projects = [
     link: "https://travel-story-rho.vercel.app/"
   },
   {
+    title: "Email Classifier",
+    description: "A machine learning-based email classifier that automatically categorizes emails into spam, promotions, social, and primary inbox using NLP techniques.",
+    tech: ["Python", "Scikit-learn", "NLTK", "Pandas", "Flask"],
+    image: "/images/email-classifier.png",
+    link: "https://github.com/yourusername/email-classifier"
+  },
+  {
     title: "Supercar Spectrum",
     description: "A smart web app to explore and compare supercars with video showcase, animations, and API-powered comparisons.",
     tech: ["ReactJS", "TailwindCSS", "Framer Motion", "API"],
@@ -29,13 +36,7 @@ export const projects = [
     image: "/images/emoji-tic-tac-toe.png",
     link: "https://tic-tac-toe-creative.vercel.app/"
   },
-  {
-    title: "Weatherly",
-    description: "A weather app with city search, live temperature, humidity, wind speed, and clock display.",
-    tech: ["ReactJS", "Weather API"],
-    image: "/images/weatherly.png",
-    link: "https://weather-app-flame-alpha-21.vercel.app/"
-  },
+  
   {
     title: "Snake Game",
     description: "Classic snake game recreated with speed control, scoring, and neon dark UI.",
