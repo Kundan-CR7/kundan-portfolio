@@ -5,15 +5,11 @@ const VisitorCounter = () => {
 
   useEffect(() => {
     const apiUrl = import.meta.env.VITE_VISITOR_URL;
-    console.log("API URL:", apiUrl); // 🧠 check this
-
     fetch(apiUrl)
       .then((res) => {
-        console.log("Response status:", res.status);
         return res.json();
       })
       .then((data) => {
-        console.log("Data from API:", data);
         setVisits(data.visits);
       })
       .catch((err) => console.error("Error fetching visits:", err));
