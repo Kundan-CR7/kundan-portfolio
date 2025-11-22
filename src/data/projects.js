@@ -1,5 +1,12 @@
 export const projects = [
-    {
+  {
+    title: "Invoice Generator",
+    description: "A full-stack invoice generation system that allows users to create companies, manage products and customers, and generate professional invoices dynamically from saved data.",
+    tech: ["React.js", "Node.js", "Express.js", "Prisma", "PostgreSQL", "PDFKit"],
+    image: "/images/invoice-generator.png",
+    link: "https://invoice-generator-five-sigma.vercel.app"
+  },
+  {
     title: "StackMate",
     description: "A productivity-focused VS Code extension with notes, JSON validator, coding stats, and Stack Overflow integration.",
     tech: ["ReactJS", "TypeScript", "VS Code API","NodeJS"],
@@ -26,15 +33,6 @@ export const projects = [
     tech: ["ReactJS", "TailwindCSS", "Framer Motion", "API"],
     image: "/images/supercar-spectrum.png",
     link: "https://supercar-spectrum.vercel.app/"
-  },
-  
-  
-  {
-    title: "Emoji Clash",
-    description: "A fun twist on Tic Tac Toe where each player can place only 3 emojis at a time.",
-    tech: ["ReactJS"],
-    image: "/images/emoji-tic-tac-toe.png",
-    link: "https://tic-tac-toe-creative.vercel.app/"
   },
   
   {
